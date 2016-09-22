@@ -1,16 +1,16 @@
 # Setup
 title:               sashacomru
 tagline:             'you know who i am!'
-description:         'you know who i am!</a>.'
+description:         'you know who i am!'
 url:                 http://www.sasha.com.ru
 baseurl:             'http://www.sasha.com.ru'
 paginate:            2
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              sashacomru
+  url:               https://www.sasha.com.ru
+  email:
 
 # Custom vars
 version:             1.0.0
