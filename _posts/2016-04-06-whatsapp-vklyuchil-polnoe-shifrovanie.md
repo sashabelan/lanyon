@@ -5,7 +5,7 @@ author: sashabelan
 layout: post
 permalink: /whatsapp-vklyuchil-polnoe-shifrovanie/
 ---
-### End-to-end шифрование в  Whatsapp.
+<p class="message">End-to-end шифрование в  Whatsapp.</p> 
 
 Теперь для всего контента используется «сквозное» (end-to-end) шифрование, которое защищает ваши сообщения, фотографии, видео, голосовые сообщения, документы и звонки от попадания в чужие руки &#8212; говорится на сайте мессенджера.
 
