@@ -6,11 +6,6 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-   {% if excerpt and post.excerpt %}
-    {{ post.excerpt }}
-    <p> <a href="{{ post.url }}/#more" class="more-link"><span class="readmore">Read the rest of this entry »</span></a></p>
-  {% else %}
-    {{ post.content | mark_excerpt }}
   {% endif %}
 </div>
 
