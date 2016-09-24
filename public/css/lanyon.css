@@ -328,6 +328,10 @@ a.sidebar-nav-item:focus {
 .post-title {
   margin-top: 0;
 }
+a:hover {
+  color:#505050;
+  text-decoration: none;
+}
 
 /* Meta data line below post title */
 .post-date {
