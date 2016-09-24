@@ -1,3 +1,7 @@
+---
+layout: page
+title: Markdown
+---
 <p>This is intended as a quick reference and showcase. For more complete info, see <a href="http://daringfireball.net/projects/markdown/">John Gruber's original spec</a> and the <a href="http://github.github.com/github-flavored-markdown/">Github-flavored Markdown info page</a>.</p>
 
 <p>Note that there is also a <a href="./Markdown-Here-Cheatsheet">Cheatsheet specific to Markdown Here</a> if that's what you're looking for. You can also check out <a href="./Other-Markdown-Tools">more Markdown tools</a>.</p>
