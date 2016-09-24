@@ -116,6 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a:hover {
   color:#505050;
+  text-decoration: none;
 }
 
 @media (max-width: 48em) {
