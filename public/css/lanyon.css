@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 a:hover {
-  color:#505050;
+  color:#c0c0c0;
   text-decoration: none;
 }
 
@@ -329,9 +329,9 @@ a.sidebar-nav-item:focus {
   margin-top: 0;
 }
 a:hover {
-  color:#505050;
+  color:#c0c0c0;
   text-decoration: none;
-}
+}ast
 
 /* Meta data line below post title */
 .post-date {
