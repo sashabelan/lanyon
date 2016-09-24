@@ -320,7 +320,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: rgb(65, 174, 210);
   text-decoration: none;
 }
 .page-title,
