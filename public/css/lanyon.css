@@ -92,15 +92,19 @@ h1, h2, h3, h4, h5, h6 {
  *
  * Super small header above the content for site name and short description.
  */
+/*  border-bottom: 1px solid #00e6e6; */
 
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+<<<<<<< HEAD
   z-index:0;
   width: 100%;
   position:fixed;
+=======
+>>>>>>> origin/master
 }
 .masthead-title {
   margin-top: 0;
