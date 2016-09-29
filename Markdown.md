@@ -355,7 +355,7 @@ Markdown | Less | Pretty
 This line is part of the same quote.</p>
 </blockquote>
 
-<p>Quote break.</p>
+
 
 <blockquote>
 <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote. </p>
