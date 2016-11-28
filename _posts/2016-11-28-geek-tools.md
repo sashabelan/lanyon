@@ -1,0 +1,9 @@
+---
+layout: post
+title: Ranger in iTerm2
+---
+
+### Installed Ranger to iTerm2
+Looks quite good - like it!
+
+<a href="/images/ranger.png"><img src="/images/ranger.png" width="700" /><a>
