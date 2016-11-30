@@ -4,7 +4,7 @@ tagline:             'You know who I am!'
 description:         'You know who I am!'
 url:                 http://www.sasha.com.ru
 baseurl:             'http://www.sasha.com.ru'
-paginate:            2
+paginate:            3
 
 # About/contact
 author:
