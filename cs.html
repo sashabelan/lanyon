@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Графики KIA</title>
+		<meta name="description" content="chart created using amCharts live editor" />
+		
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/gauge.js"></script>
+		<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+		<script src="/amcharts/plugins/animate/animate.min.js"></script>
+		<script src="/amcharts/plugins/dataloader/dataloader.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/amcharts/plugins/export/export.js"></script>
+		<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="/semantic/semantic.js"></script>
+		<link rel="stylesheet" type="text/css" href="/semantic/semantic.css">
+		<link rel="stylesheet" type="text/css" href="/css/app.css">
+		<style type="text/css">
+			.amcharts-export-menu {
+				top: -65px;
+				right: -16px;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div id="app">
+			<div class="ui attached stackable menu">
+			    <div class="ui container">
+			      <a class="item" href="/">
+			        <i class="home icon"></i> Главная
+			      </a>
+			      <a class="item">
+			        <i class="mail icon"></i> Сообщения
+			      </a>
+			      <div class="ui simple dropdown right item">
+			        Фаворит Моторс Восток
+			        <i class="dropdown icon"></i>
+			        <div class="menu">
+			          <a class="item"><i class="user icon"></i> Профайл</a>
+			          <a class="item"><i class="sign out icon"></i> Выход</a>
+			        </div>
+			      </div>
+			    </div>
+		  	</div>
+			<div class="ui container" style="margin-top: 50px;">
+				<div class="ui grid centered">
+					<div class="four wide column">
+						<div class="ui segments">
+							<div class="ui segment center aligned">
+								<h4>Результат по всей сети</h4>
+							</div>
+							<div class="ui segment center aligned">
+								<div id="network" style="width: 100%; background-color: #FFFFFF;" ></div>
+							</div>
+						</div>
+					</div>
+					<div class="eight wide column">
+
+						<div class="ui segments">
+							<div class="ui segment center aligned">
+								<h5>Динамика Вашей средней оценки за последние 6 месяцев</h5>
+							</div>
+							<div class="ui segment">
+								<div id="dealer_dynamic" style="width: 100%; background-color: #FFFFFF;" ></div>
+							</div>
+						</div>
+					</div>
+					<div class="four wide column">
+						<div class="ui segments">
+							<div class="ui segment center aligned">
+								<h4>Мой результат</h4>
+							</div>
+							<div class="ui segment center aligned">
+								<div id="my" style="width: 100%; background-color: #FFFFFF;" ></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ui grid">
+					<div class="eight wide column">
+						<div class="ui segments">
+							<div class="ui segment">
+								<h5>Результаты по блокам</h5>
+							</div>
+							<!-- <div class="ui segment" style="padding: 4px;">
+								<div class="ui fluid multiple search selection dropdown" style="min-width: 260px;">
+									<input name="tags" type="hidden">
+									<i class="dropdown icon"></i>
+									<div class="default text">Фильтр по дилерам</div>
+									<div class="menu">
+										<div class="item" :data-value="index"  v-for="(dealer,index) in data.dealers">{{ dealer.title }} </div>
+									</div>
+								</div>
+							</div> -->
+							<div class="ui bottom attached segment">
+								<div id="chartdiv" style="width: 100%; background-color: #FFFFFF;" ></div>
+							</div>
+						</div>
+					</div>
+					<div class="eight wide column">
+						<div class="ui segments">
+							<div class="ui segment">
+								<h5>NPS</h5>
+							</div>
+							<div class="ui segment">
+								<div id="avg_nps" style="width: 100%; background-color: #FFFFFF;" ></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ui grid">
+					<div class="column">
+						<div class="ui segments">
+							<div class="ui segment center aligned">
+								<h5>Динамика по блокам за последние 6 месяцев</h5>
+							</div>
+							<div class="ui segment">
+								<div id="blocks_dynamic" style="width: 100%; background-color: #FFFFFF;" ></div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="/js/vue.js"></script>
+		<script type="text/javascript" src="/js/axios.min.js"></script>
+		<script src="/js/app.js"></script>
+	</body>
+</html>
